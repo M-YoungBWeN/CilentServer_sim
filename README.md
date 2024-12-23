@@ -10,11 +10,11 @@ The system is divided into an upper-level computer (host) and a lower-level embe
 
 系统分为上位机（计算机）和下位机（嵌入式系统），通过网络通信。下位机连接各种传感器，并设置多个继电器（进出端口，可实现对传感器的通断电），并将传感器数据定时上传到上位机（每5秒上传一次；如果传感器数值发生变化，则立即上传）。上位机收到下位机数据后，要显示收到的各个传感器的数值或者状态，并且根据控制规则向下位机传输控制数据，从而对各个传感器进行控制。
 
-![](README/system.png)
+![system.png](./images/system.png)
 
 # 系统界面
 
-![image-20241223151400518](README/image-20241223151400518.png)
+![image-20241223151400518.png](./images/image-20241223151400518.png)
 
 # 详细介绍
 
